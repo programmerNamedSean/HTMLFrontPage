@@ -1,0 +1,202 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    </head>
+
+    <body>
+       
+
+
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <nav  class="navbar navbar-inverse navbar-fixed-top" role="navigation" id ="grad1">
+
+            <div class="container" >
+                <div class="navbar-header" id ="grad2">
+
+                    <ul id="menu">
+                           <li class="horizontal">
+                            <div class="dropdown">
+                                <button  class="dropbtn">Home</button>
+                                <div id="myDropdown1" class="dropdown-content">
+                                    
+
+                                </div>
+                            </div>
+                        </li>
+                       
+                      
+                    
+                         <li class="horizontal">
+                            <div class="dropdown">
+                                <button   class="dropbtn">About/Contact</button>
+                                <div id="myDropdown" class="dropdown-content">
+                                    <a href="about.html">About.</a>
+                                    <a href="contact.html">Contact.</a>
+
+                                </div>
+                            </div>
+                        </li>
+                        <li class="horizontal">
+                            <div class="dropdown">
+                                <button   class="dropbtn">Help Now!</button>
+                                <div id="myDropdown2" class="dropdown-content"> 
+                                    <a href="about.html">Donating Info!</a>
+                                    <a href="contact.html">Volunteering Info!</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="horizontal">
+                            <div class="dropdown">
+                                <button  class="dropbtn">General Info</button>
+                                <div id="myDropdown1" class="dropdown-content">
+                                    <a href="generalInfo.html">What do we do?</a>
+                                    <a href="generalInfo.html">Why do we do this?</a>
+                                    <a href="generalInfo.html">Our Success so Far!</a>
+                                    <a href="generalInfo.html">How can you Help?</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="horizontal">
+                            <div class="dropdown">
+                                <button  class="dropbtn">Login/Sign up!</button>
+                                <div id="myDropdown1" class="dropdown-content">
+                                    <a href="login.html">Login.</a>
+                                    <a href="signUp.html">Sign up!</a>
+
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <script>
+
+                        /* When the user clicks on the button,
+                         toggle between hiding and showing the dropdown content */
+
+                        function myFunction() {
+
+
+                            document.getElementById("drop1").classList.toggle("show");
+
+                        }
+                        function myFunction2() {
+
+                            document.getElementById("drop2").classList.toggle("show");
+                        }
+                        function myFunction3() {
+
+                            document.getElementById("drop3").classList.toggle("show");
+                        }
+// Close the dropdown if the user clicks outside of it
+                        window.onclick = function (event) {
+                            if (!event.target.matches('.dropbtn')) {
+
+                                var dropdowns = document.getElementsByClassName("dropdown-content");
+                                var i;
+                                for (i = 0; i < dropdowns.length; i++) {
+                                    var openDropdown = dropdowns[i];
+                                    if (openDropdown.classList.contains('show')) {
+                                        openDropdown.classList.remove('show');
+                                    }
+                                }
+                            }
+                        }
+                    </script>
+
+                </div>
+            </div>
+
+
+
+
+
+
+        </nav>
+
+        <!-- Main jumbotron for a primary marketing message or call to action -->
+        <div class="jumbotron">
+            <div class="container">
+                <h1>You can make a difference!</h1>
+                <p>You, have a chance today, to help out on a unique cause that will make an immediate impact on the lives of college students in Nigeria.</p>
+                <p><a class="btn btn-primary btn-lg" href="#" role="button">Check out how &raquo;</a></p>
+            </div>
+        </div>
+
+        <div class="container" id="grad5">
+            <!-- Example row of columns -->
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>Benefits of Donating</h2>
+                    <p>The donations of books go directly to the schools in need, in Nigeria. Donations of cash will be used for shipping and handling of the fees. Check out how you can help out now, whether it's with one book or one dollar, every bit helps.</p>
+                    <p><a class="btn btn-default" href="#" role="button"><p1>Learn more here! &raquo;</p1></a></p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Our Success Story</h2>
+                    <p>This at first just started off as a way for, students in Nigeria, to be able to access free books of higher academic quality. This idea will always be the case! Check out which schools have been directly affected by Efiwe's donations so far!</p>
+                    <p><a class="btn btn-default" href="#" role="button"><p1>Schools helped &raquo;</p1></a></p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Benefits of Volunteering</h2>
+                    <p>There are many benefits to volunteering, for you as well as for us. Through volunteering with us you will be given a chance to be a true community leader, by hosting a book drive or collection in your neighborhood or at your school. Find out now how you can make a difference and be a community leader.</p>
+                    <p><a class="btn btn-default" href="#" role="button"><p1>Book Drives & Collections &raquo;</p1></a></p>
+                </div>
+            </div>
+
+            <hr>
+
+            <footer >
+                <p>&copy; Company 2015</p>
+            </footer>
+        </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+                        (function (b, o, i, l, e, r) {
+                            b.GoogleAnalyticsObject = l;
+                            b[l] || (b[l] =
+                                    function () {
+                                        (b[l].q = b[l].q || []).push(arguments)
+                                    });
+                            b[l].l = +new Date;
+                            e = o.createElement(i);
+                            r = o.getElementsByTagName(i)[0];
+                            e.src = '//www.google-analytics.com/analytics.js';
+                            r.parentNode.insertBefore(e, r)
+                        }(window, document, 'script', 'ga'));
+                        ga('create', 'UA-XXXXX-X', 'auto');
+                        ga('send', 'pageview');
+        </script>
+    </body>
+</html>
